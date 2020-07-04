@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+#counterinfo{
+    height: 100px;
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0px #511845;
+}
+#counterinfo p{
+    color: white;
+    margin-left:35%;
+    padding-top: 25px;
+    font-size: 40px;
+    font-family:Impact;
+}
+#input{
+    height: 100px;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0px #900c3f;
+    display: flex;
+    justify-content: space-around;
+}
+#input input{
+margin-top:15px ;
+padding:10px;
+height: 50px;
+width: 30%;
+background-color: transparent;
+color:grey;
+border-radius: 25px;
+outline:none;
+font-size: 1rem;
+}
+#input button{
+    color:rgba(214, 44, 44, 0.849);
+    margin-top:20px ;
+    height: 60px;
+width: 15%;
+font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    outline:none;
+    font-size: 1rem;
+    padding: 10px 15px;
+    background-color: transparent;
+    box-shadow:0 0px 25px 0 red;
+}
+#display
+{   margin-top:25px;
+    height: 200px;
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow:0 0px 25px 0 #c70039;
+    border-radius:40px;
+}
+.counter{
+    margin-top:12.5px ;
+    height:175px;
+    width: 150px;
+    background-color:transparent;
+    border-radius:25px;
+    box-shadow:0 0px 5px 0 #ff5733;
+}
+#fifth
+{
+    margin-left: 25%;
+}
+#first
+{
+    margin-right: 25%;
+}
+.counter p{
+    font-size:150px;
+    color: white;
+    font-family: Impact;
+    font-weight: bold;
+    margin-left:30px;
+}
